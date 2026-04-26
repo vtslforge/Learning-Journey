@@ -1,4 +1,4 @@
-num  = 5638
+num  = 563867
 n  = num
 count  = 0
 while n > 0:
