@@ -1,13 +1,18 @@
-import Circle from "./Components/Circle"
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import Builder from "./Builder";
+import Apitesting from "./Apitesting";
 
-const App = () => {
-  return (
-    <main className="flex items-center justify-center h-screen w-screen">
-      <section className="">
-        <Circle/>
-      </section>
-    </main>
-  )
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Builder />,
+  },
+  {
+    path:'/api',
+    element:<Apitesting/>
+  }
+]);
+
+export default function App() {
+  return <RouterProvider router={router} />;
 }
-
-export default App
