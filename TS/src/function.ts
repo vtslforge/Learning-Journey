@@ -11,4 +11,4 @@ console.log("Hello");
 }
 
 let typeinfer = sayHello()
-console.log(typeinfer)
+console.log(typeinfer) 
