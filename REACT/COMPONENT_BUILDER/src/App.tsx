@@ -1,6 +1,7 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Builder from "./Builder";
 import Apitesting from "./Apitesting";
+import TestOne from "./TestOne";
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
   {
     path:'/api',
     element:<Apitesting/>
+  },
+    {
+    path:'/testOne',
+    element:<TestOne/>
   }
 ]);
 
