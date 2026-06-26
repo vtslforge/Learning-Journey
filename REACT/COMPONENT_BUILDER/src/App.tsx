@@ -1,21 +1,16 @@
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import Builder from "./Builder";
-import Apitesting from "./Apitesting";
-import TestOne from "./TestOne";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./Home";
+import Jsx_exercise from "./Exercise/Jsx_exercise";
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <Builder />,
-  },
-  {
-    path:'/api',
-    element:<Apitesting/>
+    path: "/",
+    element: <Home />,
   },
     {
-    path:'/testOne',
-    element:<TestOne/>
-  }
+    path: "/exe",
+    element: <Jsx_exercise />,
+  },
 ]);
 
 export default function App() {
