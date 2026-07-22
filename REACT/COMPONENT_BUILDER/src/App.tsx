@@ -5,6 +5,8 @@ import Jsx_exercise from "./Exercise/Jsx_exercise";
 // import Toggle_color_btn from "./StateManagement/Toggle_color_btn";
 // import Live_name_input from "./StateManagement/Live_name_input";
 import Toggle_components from "./StateManagement/Toggle_components";
+import User from "./Props_in_react/User";
+import Main from "./Props_in_react/myCompany/Main";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: "/state",
     element: <Toggle_components />,
+  },
+  {
+    path: "/prop",
+    element: <User name="vats" roll="32" />,
+  },
+  {
+    path: "/propapp",
+    element: <Main />,
   },
 ]);
 
