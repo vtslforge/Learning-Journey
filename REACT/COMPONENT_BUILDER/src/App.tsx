@@ -7,6 +7,8 @@ import Jsx_exercise from "./Exercise/Jsx_exercise";
 import Toggle_components from "./StateManagement/Toggle_components";
 import User from "./Props_in_react/User";
 import Main from "./Props_in_react/myCompany/Main";
+// import Input from "./controlledComponent/InputOnchange";
+import Checkbox from "./controlledComponent/Checkbox";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/propapp",
     element: <Main />,
+  },
+  {
+    path: "/input",
+    element: <Checkbox/>,
   },
 ]);
 

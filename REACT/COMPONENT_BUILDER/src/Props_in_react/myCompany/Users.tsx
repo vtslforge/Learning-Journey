@@ -2,6 +2,7 @@
 // Passes props (name, salary) to Emp
 
 import PropJSX from "../PropJSX";
+import Customer from "./Customer";
 import Emp from "./Emp";
 
 const Users = () => {
@@ -18,6 +19,9 @@ const Users = () => {
             <p>Hello employies</p>
             <p>Welcome to the list</p>
         </PropJSX>
+      </div>
+      <div>
+        <Customer name="ravi" visit={23} />
       </div>
     </div>
   );
