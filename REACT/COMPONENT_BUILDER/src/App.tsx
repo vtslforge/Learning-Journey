@@ -9,6 +9,7 @@ import User from "./Props_in_react/User";
 import Main from "./Props_in_react/myCompany/Main";
 // import Input from "./controlledComponent/InputOnchange";
 import Checkbox from "./controlledComponent/Checkbox";
+import ProfileShowcaseProject from "./Exercise/ProfileShowcaseProject";
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/input",
-    element: <Checkbox/>,
+    element: <Checkbox />,
+  },
+  {
+    path: "/profileproject",
+    element: <ProfileShowcaseProject />,
   },
 ]);
 
