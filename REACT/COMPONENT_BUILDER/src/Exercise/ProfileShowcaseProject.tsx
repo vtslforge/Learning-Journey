@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Card from "./Card"
 
 
 const ProfileShowcaseProject = () => {
@@ -30,6 +31,11 @@ const ProfileShowcaseProject = () => {
             <hr />
             <p>{sname}</p>
             <p>{sid}</p>
+            <Card
+                sname={sname}
+                sid={sid}
+
+            />
         </div>
     )
 }
