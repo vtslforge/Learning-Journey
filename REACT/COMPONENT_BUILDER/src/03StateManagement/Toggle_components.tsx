@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Name from "../component/Name";
-import Name2 from "../component/Name2";
+import Name from "../01component/Name";
+import Name2 from "../01component/Name2";
 
 const Toggle_components = () => {
   const [Display, setDisplay] = useState(true);

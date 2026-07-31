@@ -1,15 +1,16 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home";
-import Jsx_exercise from "./Exercise/Jsx_exercise";
+import Jsx_exercise from "./00Exercise/jsxExercise/Jsx_exercise";
 // import Digit_counter from "./StateManagement/Digit_counter";
 // import Toggle_color_btn from "./StateManagement/Toggle_color_btn";
 // import Live_name_input from "./StateManagement/Live_name_input";
-import Toggle_components from "./StateManagement/Toggle_components";
-import User from "./Props_in_react/User";
-import Main from "./Props_in_react/myCompany/Main";
+import Toggle_components from "./03StateManagement/Toggle_components";
+// import User from "./Props_in_react/User";
+// import Main from "./Props_in_react/myCompany/Main";
 // import Input from "./controlledComponent/InputOnchange";
-import Checkbox from "./controlledComponent/Checkbox";
-import ProfileShowcaseProject from "./Exercise/ProfileShowcaseProject";
+import Checkbox from "./05controlledComponent/Checkbox";
+import HandleRadio from "./05controlledComponent/HandleRadio";
+// import ProfileShowcaseProject from "./Exercise/ProfileShowcaseProject";
 
 const router = createBrowserRouter([
   {
@@ -24,21 +25,21 @@ const router = createBrowserRouter([
     path: "/state",
     element: <Toggle_components />,
   },
-  {
-    path: "/prop",
-    element: <User name="vats" roll="32" />,
-  },
-  {
-    path: "/propapp",
-    element: <Main />,
-  },
+  // {
+  //   path: "/prop",
+  //   element: <User name="vats" roll="32" />,
+  // },
+  // {
+  //   path: "/propapp",
+  //   element: <Main />,
+  // },
   {
     path: "/input",
     element: <Checkbox />,
   },
-  {
-    path: "/profileproject",
-    element: <ProfileShowcaseProject />,
+    {
+    path: "/radio",
+    element: <HandleRadio />,
   },
 ]);
 
