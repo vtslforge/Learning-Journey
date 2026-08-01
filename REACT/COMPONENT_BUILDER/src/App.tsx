@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./Home";
+// import Home from "./Home";
 import Jsx_exercise from "./00Exercise/jsxExercise/Jsx_exercise";
 // import Digit_counter from "./StateManagement/Digit_counter";
 // import Toggle_color_btn from "./StateManagement/Toggle_color_btn";
@@ -10,12 +10,14 @@ import Toggle_components from "./03StateManagement/Toggle_components";
 // import Input from "./controlledComponent/InputOnchange";
 import Checkbox from "./05controlledComponent/Checkbox";
 import HandleRadio from "./05controlledComponent/HandleRadio";
+import Dropdown from "./05controlledComponent/Dropdown";
+import Map_function from "./06Map/Map_function";
 // import ProfileShowcaseProject from "./Exercise/ProfileShowcaseProject";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Map_function/>,
   },
   {
     path: "/exe",
