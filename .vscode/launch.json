@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "input_sum",
+      "request": "launch",
+      "mainClass": "methods.input_sum",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
       "name": "Counter",
       "request": "launch",
       "mainClass": "extraction_of_digit.Counter",
