@@ -43,6 +43,6 @@ public class input_sum {
     static String name(String uname) { // returning string
         String username = "hello " + uname;
         return username;
-    } 
+    }
 
 }

@@ -2,6 +2,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayListf",
+      "request": "launch",
+      "mainClass": "Array.ArrayListf",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
+      "name": "Array2d",
+      "request": "launch",
+      "mainClass": "Array.Array2d",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
+      "name": "Array_in_methods",
+      "request": "launch",
+      "mainClass": "Array.Array_in_methods",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Array.Main",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
+      "name": "Sort",
+      "request": "launch",
+      "mainClass": "Array.Sort",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
+      "name": "Prime_check",
+      "request": "launch",
+      "mainClass": "methods.Prime_check",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
       "name": "input_sum",
       "request": "launch",
       "mainClass": "methods.input_sum",
