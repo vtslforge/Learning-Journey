@@ -1,3 +1,6 @@
+import Main from "./Main";
+import NestedMap from "./NestedMap";
+
 const Map_function = () => {
   const people = [
     {
@@ -32,6 +35,14 @@ const Map_function = () => {
           ))}
         </thead>
       </table>
+      <div>
+        {people.map((list) => (
+          <div key={list.name}>
+            <Main list={list} />
+          </div>
+        ))}
+      </div>
+      <NestedMap />
     </div>
   );
 };

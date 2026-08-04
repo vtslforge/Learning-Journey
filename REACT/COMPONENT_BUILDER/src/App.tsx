@@ -10,14 +10,15 @@ import Toggle_components from "./03StateManagement/Toggle_components";
 // import Input from "./controlledComponent/InputOnchange";
 import Checkbox from "./05controlledComponent/Checkbox";
 import HandleRadio from "./05controlledComponent/HandleRadio";
-import Dropdown from "./05controlledComponent/Dropdown";
-import Map_function from "./06Map/Map_function";
+// import Dropdown from "./05controlledComponent/Dropdown";
+// import Map_function from "./06Map/Map_function";
+import Main from "./UseEffect.tsx/Main";
 // import ProfileShowcaseProject from "./Exercise/ProfileShowcaseProject";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Map_function/>,
+    element: <Main/>,
   },
   {
     path: "/exe",
