@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReturnElement",
+      "request": "launch",
+      "mainClass": "DSA.LinearSearch.ReturnElement",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
+      "name": "Core",
+      "request": "launch",
+      "mainClass": "DSA.LinearSearch.Core",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
+      "name": "Length_of_array",
+      "request": "launch",
+      "mainClass": "DSA.Array.Length_of_array",
+      "projectName": "Learning_9729df88"
+    },
+    {
+      "type": "java",
       "name": "ArrayListf",
       "request": "launch",
       "mainClass": "Array.ArrayListf",

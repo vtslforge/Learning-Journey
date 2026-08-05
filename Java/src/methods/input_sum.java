@@ -7,7 +7,7 @@ public class input_sum {
         // sum();
         // int ans = sum2(); // returning sum2()
         // System.out.println(ans);
-        // sum3(12, 12); // arguments are 12 & 12
+        sum3(12, 12); // arguments are 12 & 12
         System.out.println(name("Aman singh"));
 
     }
