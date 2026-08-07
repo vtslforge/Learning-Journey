@@ -12,13 +12,18 @@ import Checkbox from "./05controlledComponent/Checkbox";
 import HandleRadio from "./05controlledComponent/HandleRadio";
 // import Dropdown from "./05controlledComponent/Dropdown";
 // import Map_function from "./06Map/Map_function";
-import Main from "./UseEffect.tsx/Main";
+// import Main from "./UseEffect.tsx/Main";
+// import Cfunction from "./04Props_in_react/Cfunction";
+// import SimpleRef from "./08Ref_forRef/SimpleRef";
+// import Form from "./09useFormStatus/Form";
+// import Transition from "./10useTransition/Transition";
+import Parent from "./03StateManagement/LiftUpState/Parent";
 // import ProfileShowcaseProject from "./Exercise/ProfileShowcaseProject";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main/>,
+    element: <Parent/>,
   },
   {
     path: "/exe",
