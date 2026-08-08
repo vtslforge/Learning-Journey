@@ -17,13 +17,15 @@ import HandleRadio from "./05controlledComponent/HandleRadio";
 // import SimpleRef from "./08Ref_forRef/SimpleRef";
 // import Form from "./09useFormStatus/Form";
 // import Transition from "./10useTransition/Transition";
-import Parent from "./03StateManagement/LiftUpState/Parent";
+// import Parent from "./03StateManagement/LiftUpState/Parent";
+// import Object from "./11Updating_object&arrat_in_state/Object";
+import Arraystate from "./11Updating_object&arrat_in_state/Arraystate";
 // import ProfileShowcaseProject from "./Exercise/ProfileShowcaseProject";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Parent/>,
+    element: <Arraystate/>,
   },
   {
     path: "/exe",
