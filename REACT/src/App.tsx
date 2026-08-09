@@ -19,13 +19,14 @@ import HandleRadio from "./05controlledComponent/HandleRadio";
 // import Transition from "./10useTransition/Transition";
 // import Parent from "./03StateManagement/LiftUpState/Parent";
 // import Object from "./11Updating_object&arrat_in_state/Object";
-import Arraystate from "./11Updating_object&arrat_in_state/Arraystate";
+// import Arraystate from "./11Updating_object&arrat_in_state/Arraystate";
+import ActionState from "./12useActionState/ActionState";
 // import ProfileShowcaseProject from "./Exercise/ProfileShowcaseProject";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Arraystate/>,
+    element: <ActionState/>,
   },
   {
     path: "/exe",
