@@ -11,6 +11,8 @@ import Live_name_input from "./03StateManagement/Live_name_input";
 import Toggle_color_btn from "./03StateManagement/Toggle_color_btn";
 import Name from "./01component/Name";
 import Name2 from "./01component/Name2";
+// import Get_method from "./15API/Get/Get_method";
+import Get_m2 from "./15API/Get/Get_m2";
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/form" element={<Form />} />
+        <Route path="/api" element={<Get_m2 />} />
         {/* <Route path="/*" element={<h1>Page not found</h1>} />   A normal page not found   */}
         {/* or you can also do something like this to redirect, now this will redirect to home */}
         <Route path="/*" element={<Navigate to={"/"} />} />
