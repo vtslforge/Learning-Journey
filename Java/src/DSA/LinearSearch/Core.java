@@ -10,7 +10,7 @@ public class Core {
     }
 
     static int LinearSearch(int target, int[] arr) {
-        if (arr.length == 0) { // if length of the array is 0 cause then we dint't need to linear search only
+        if (arr.length == 0) { // if length of the array is 0 cause then we didn't need to linear search only
             return -1;
         }
 
