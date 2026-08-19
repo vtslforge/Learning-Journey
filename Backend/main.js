@@ -1,13 +1,11 @@
-const fs = require("fs");
+const express = require('express');
+const app = express()
+const port = 3001
 
-console.log("hello backend");
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
-fs.writeFile(
-  "fileOne.txt",
-  "this is file one an introduction to node js",
-  (err) => {
-    if (err) {
-      console.log("unable to write file" + err);
-    } else console.log("written success");
-  },
-);
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
