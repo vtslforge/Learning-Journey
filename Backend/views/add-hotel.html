@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add-hotel</title>
+    <link href="/output.css" rel="stylesheet">
+</head>
+
+<body class="min-h-screen bg-gray-100 flex flex-col items-center justify-center gap-6">
+
+    <h1 class="text-4xl font-bold text-gray-800">
+        Add Hotel Here for Listing
+    </h1>
+
+    <form action="/host/add-hotel" method="POST" class="flex flex-col gap-4 bg-white p-8 rounded-2xl shadow-lg w-96">
+        <input type="text" placeholder="Enter hotel name" name="houseName"
+            class="border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-amber-500" />
+
+        <button type="submit"
+            class="bg-amber-600 text-white font-semibold py-3 rounded-lg hover:bg-amber-700 transition">
+            Add Hotel
+        </button>
+    </form>
+
+</body>
+
+</html>
