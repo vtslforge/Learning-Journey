@@ -1,13 +1,8 @@
 const express = require('express')
 const userRouter = express.Router();
-const path  = require('path')
-const rootPath = require('../utils/pathUtil');
-const { homeData, hostRouter } = require('./hostRouter');
+const {showHomes} = require('../controllers/homes')
 
-userRouter.get("/", (req, res) => {
-    console.log(hostRouter)
-    // res.sendFile(path.join(rootPath,'views',"home.html"))
-    res.render('home',{homeData})
-});
+// showHomes controller used to route and render the home.html page
+userRouter.get("/",showHomes );
 
 module.exports = userRouter;

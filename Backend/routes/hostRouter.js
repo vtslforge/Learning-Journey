@@ -1,17 +1,10 @@
 const express = require("express");
 const hostRouter = express.Router();
-const path = require("path");
-const rootPath = require('../utils/pathUtil')
+const { getAddHome,postAddHome} =  require('../controllers/homes')
 
-hostRouter.get("/add-hotel", (req, res) => {
-  res.sendFile(path.join(rootPath, "views", "add-hotel.html"));
-});
+//getAddHome from controllers which help to add home through html page
+hostRouter.get("/add-hotel",getAddHome);
+// postAddHome controller dealing with post request data and pushing into hotels array[]
+hostRouter.post("/add-hotel",postAddHome );  
 
-const homeData = []
-hostRouter.post("/add-hotel", (req, res) => {
-    homeData.push({homeData:req.body.houseName})
-  res.sendFile(path.join(rootPath, "views", "success.html"));
-});
-
-exports.hostRouter = hostRouter
-exports.homeData = homeData
+exports.hostRouter = hostRouter;

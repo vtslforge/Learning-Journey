@@ -9,28 +9,62 @@
 </head>
 
 <body class="min-h-screen bg-gray-100">
+
     <div class="flex flex-col gap-3 justify-center items-center w-full bg-amber-700 px-6 py-10 shadow-lg">
-        <h1 class="text-4xl font-bold text-white tracking-wide">Welcome Hotel Listing</h1>
+        <h1 class="text-4xl font-bold text-white tracking-wide">
+            Welcome Hotel Listing
+        </h1>
+
         <a class="mt-2 rounded-full bg-white px-6 py-2.5 font-semibold text-amber-700 shadow-md transition hover:bg-amber-100 hover:scale-105"
-            href="/host/add-hotel">+ List Hotel</a>
+            href="/host/add-hotel">
+            + List Hotel
+        </a>
     </div>
+
     <div class="max-w-5xl mx-auto px-6 py-10">
-        <h2 class="text-3xl font-bold text-gray-800 mb-8">List of Homes</h2>
+
+        <h2 class="text-3xl font-bold text-gray-800 mb-8">
+            List of Homes
+        </h2>
+
         <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <% homeData.forEach(home=> { %>
-                <li
-                    class="bg-white rounded-2xl p-6 shadow-md border border-gray-100 transition hover:-translate-y-1 hover:shadow-xl">
+
+            <% hotels.forEach(hotel => { %>
+
+                <li class="bg-white rounded-2xl p-6 shadow-md border border-gray-100 transition hover:-translate-y-1 hover:shadow-xl">
+
                     <div class="flex items-center justify-between mb-4">
-                        <span class="text-sm font-medium text-amber-600 bg-amber-50 px-3 py-1 rounded-full">Hotel</span>
-                        <span class="text-gray-400">★</span>
+                        <span class="text-sm font-medium text-amber-600 bg-amber-50 px-3 py-1 rounded-full">
+                            Hotel
+                        </span>
+
+                        <span class="text-gray-400">
+                            ★
+                        </span>
                     </div>
+
                     <h3 class="text-xl font-semibold text-gray-800">
-                        <%= home.homeData %>
+                        <%= hotel.name %>
                     </h3>
+
+                    <p class="mt-2 text-gray-600">
+                        ₹<%= hotel.price %>
+                    </p>
+
+                    <p class="mt-1 text-gray-500">
+                        <%= hotel.location %>
+                    </p>
+
                 </li>
-                <% }) %>
+
+            <% }) %>
+
         </ul>
+
     </div>
+
+    <%- include('partials/footer') %>
+
 </body>
 
 </html>
