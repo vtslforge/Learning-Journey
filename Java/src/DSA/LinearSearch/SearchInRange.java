@@ -19,6 +19,5 @@ public class SearchInRange {
             }
         }
         return -1;
-
     }
 }

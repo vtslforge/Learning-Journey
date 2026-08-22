@@ -73,12 +73,3 @@ public class ReturnElement {
         return "not found";
     }
 }
-
-// remember this -
-// for (int num : arr)
-
-// Equivalent to:for(
-// int i = 0;i<arr.length;i++)
-// {
-// int num = arr[i];
-// }
