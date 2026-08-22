@@ -2,7 +2,7 @@ const express = require('express')
 const userRouter = express.Router();
 const {showHomes} = require('../controllers/homes')
 
-// showHomes controller used to route and render the home.html page
+// Shows the saved hotel listings on the application's home page.
 userRouter.get("/",showHomes );
 
 module.exports = userRouter;

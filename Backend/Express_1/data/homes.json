@@ -1,0 +1,17 @@
+[
+  {
+    "homeName": "Aarohi Hotel",
+    "homePrice": "120000",
+    "homeLocation": "Banglore"
+  },
+  {
+    "homeName": "Arihant Hotel",
+    "homePrice": "120000",
+    "homeLocation": "Banglore"
+  },
+  {
+    "homeName": "Vats hotel",
+    "homePrice": "340000",
+    "homeLocation": "gorakhpur"
+  }
+]
