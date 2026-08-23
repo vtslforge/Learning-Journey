@@ -1,8 +1,8 @@
 package DSA.LinearSearch;
 
-public class Find_min_number_in_range {
+public class MinimumValueInRange {
     public static void main(String[] args) {
-        int[] arr = { 12, 45, 34, 76, 10, 14, 35,1 };
+        int[] arr = { 12, 45, 34, 76, 10, 14, 35, 1 };
         System.out.println(find_min_number_in_range(arr, 2, 7));
     }
 

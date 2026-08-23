@@ -1,6 +1,6 @@
 package DSA.LinearSearch;
 
-public class Min_num_LinearSearch {
+public class MinimumValueLinearSearch {
     public static void main(String[] args) {
         int[] arr = { 10, 43, 53, 22, 4, 54, 25 };
 
@@ -14,7 +14,7 @@ public class Min_num_LinearSearch {
         }
 
         // Start by assuming the first element is the smallest.
-        int minimum = arr[0];  // assuming 10 is minimum
+        int minimum = arr[0]; // assuming 10 is minimum
 
         // Check every remaining element using linear search.
         for (int index = 1; index < arr.length; index++) {

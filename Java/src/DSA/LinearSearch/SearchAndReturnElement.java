@@ -2,7 +2,7 @@
 //----------------------------------------------------------------------------------------------------
 package DSA.LinearSearch;
 
-public class ReturnElement {
+public class SearchAndReturnElement {
     public static void main(String[] args) {
         int[] arr = { 3, 5, 1, 6, 8, 23, 13, 53 };
         String[] arr2 = { "aman", "arohi", "rohan" };

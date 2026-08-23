@@ -1,6 +1,6 @@
 package DSA.LinearSearch;
 
-public class Max_num_LinearSearch {
+public class MaximumValueLinearSearch {
     public static void main(String[] args) {
 
         int[] arr = { 12, 33, 23, 12, 43, 5, 14, 3 };

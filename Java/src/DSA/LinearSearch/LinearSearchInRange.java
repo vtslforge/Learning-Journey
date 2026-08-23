@@ -1,6 +1,6 @@
 package DSA.LinearSearch;
 
-public class SearchInRange {
+public class LinearSearchInRange {
     public static void main(String[] args) {
         int[] arr = { 2, 36, 24, 63, 24, 13, 6, 13, 13, 34 };
         int target = 13;

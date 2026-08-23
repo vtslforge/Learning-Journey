@@ -1,6 +1,6 @@
 package DSA.LinearSearch;
 
-public class SearchInString {
+public class LinearSearchInString {
     public static void main(String[] args) {
         String name = "vatsalya";
         char target = 'l';
