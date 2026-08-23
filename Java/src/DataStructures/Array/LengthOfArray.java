@@ -1,6 +1,6 @@
-package DSA.Array;
+package DataStructures.Array;
 
-public class Length_of_array {
+public class LengthOfArray {
     public static void main(String[] args) {
         int[] arr = { 2, 3, 4, 5, 6, 6 };
         // ---------------------------------------------------------------------------------------------------------------

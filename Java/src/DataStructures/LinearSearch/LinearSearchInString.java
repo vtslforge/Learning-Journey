@@ -1,4 +1,4 @@
-package DSA.LinearSearch;
+package DataStructures.LinearSearch;
 
 public class LinearSearchInString {
     public static void main(String[] args) {

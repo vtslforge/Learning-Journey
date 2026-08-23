@@ -1,6 +1,6 @@
 // task - to return the element instead of the index
 //----------------------------------------------------------------------------------------------------
-package DSA.LinearSearch;
+package DataStructures.LinearSearch;
 
 public class SearchAndReturnElement {
     public static void main(String[] args) {
