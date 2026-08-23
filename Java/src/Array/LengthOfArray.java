@@ -1,4 +1,4 @@
-package DataStructures.Array;
+package Array;
 
 public class LengthOfArray {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DataStructures.LinearSearch;
+package LinearSearch;
 
 public class MinimumValueLinearSearch {
     public static void main(String[] args) {

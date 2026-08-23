@@ -1,4 +1,4 @@
-package DataStructures.LinearSearch;
+package LinearSearch;
 
 public class MaximumValueLinearSearch {
     public static void main(String[] args) {
