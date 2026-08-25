@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StayEase</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navbar -->
+    <%- include('partials/navbar.ejs') %>
+
+        <!-- Hero -->
+        <section class="max-w-6xl mx-auto px-6 py-20">
+
+            <div class="max-w-2xl">
+
+                <p class="text-sm text-gray-500 mb-3">
+                    HOTEL BOOKING
+                </p>
+
+                <h2 class="text-4xl font-semibold tracking-tight mb-4">
+                    Find a comfortable place to stay.
+                </h2>
+
+                <p class="text-gray-600 mb-8">
+                    Discover hotels that fit your needs and make your stay simple.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Featured Hotels -->
+        <section class="max-w-6xl mx-auto px-6 pb-20">
+
+            <div class="flex justify-between items-center mb-6">
+
+                <h2 class="text-2xl font-semibold">
+                    Popular Hotels
+                </h2>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <% hotelData.forEach((hotel)=> { %>
+
+                    <div class="bg-white border rounded-lg overflow-hidden">
+
+                        <div class="h-40 bg-gray-200"></div>
+
+                        <div class="p-5">
+
+                            <h3 class="font-semibold text-lg">
+                                <%= hotel.hotelName %>
+                            </h3>
+
+                            <p class="text-sm text-gray-500 mt-1">
+                                <%= hotel.location %>
+                            </p>
+
+                            <div class="flex justify-between items-center mt-4">
+
+                                <span class="font-medium">
+                                    ₹<%= hotel.price %> / night
+                                </span>
+
+                                <span class="text-sm text-gray-500">
+                                    ★ <%= hotel.rating %>
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <% }) %>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="border-t bg-white">
+
+            <div class="max-w-6xl mx-auto px-6 py-12">
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm text-gray-600">
+
+                    <!-- Brand -->
+                    <div>
+
+                        <h3 class="text-lg font-semibold text-gray-900 mb-3">
+                            StayEase
+                        </h3>
+
+                        <p class="text-gray-500">
+                            Your trusted partner for comfortable hotel stays around the world.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Company -->
+                    <div>
+
+                        <h4 class="font-medium text-gray-900 mb-3">
+                            Company
+                        </h4>
+
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-black">About Us</a></li>
+                            <li><a href="#" class="hover:text-black">Careers</a></li>
+                            <li><a href="#" class="hover:text-black">Blog</a></li>
+                            <li><a href="#" class="hover:text-black">Press</a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <!-- Support -->
+                    <div>
+
+                        <h4 class="font-medium text-gray-900 mb-3">
+                            Support
+                        </h4>
+
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-black">Help Center</a></li>
+                            <li><a href="#" class="hover:text-black">Contact Us</a></li>
+                            <li><a href="#" class="hover:text-black">Terms of Service</a></li>
+                            <li><a href="#" class="hover:text-black">Privacy Policy</a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <!-- Contact -->
+                    <div>
+
+                        <h4 class="font-medium text-gray-900 mb-3">
+                            Contact
+                        </h4>
+
+                        <p class="text-gray-500">
+                            Email: support@stayease.com
+                        </p>
+
+                        <p class="text-gray-500">
+                            Phone: +91 1800 123 4567
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="border-t mt-8 pt-6 text-center text-sm text-gray-500">
+                    © 2026 StayEase. All rights reserved.
+                </div>
+
+            </div>
+
+        </footer>
+
+</body>
+
+</html>
