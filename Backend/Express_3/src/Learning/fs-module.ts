@@ -23,6 +23,10 @@ const sync_path = path.join(path_demo, "sync_file.txt");
 const callback_path = path.join(path_demo, "callback_file.txt");
 const promise_path = path.join(path_demo, "promise_file.txt");
 
+
+
+
+
 // DONE USING SYNC FS
 
 function fileSyncExample(): fileResult {
@@ -42,6 +46,10 @@ function fileSyncExample(): fileResult {
     fileInBytes: fileStat.size,
   };
 }
+
+
+
+
 
 // CALLBACK BASED API IN NODE FS
 
@@ -92,6 +100,9 @@ function runCallbackExample(): Promise<fileResult> {
   });
 }
 
+
+
+
 // PROMISE BASED API IN NODE FS PROMISE
 
 async function runPromiseExample(): Promise<fileResult> {
@@ -110,6 +121,9 @@ async function runPromiseExample(): Promise<fileResult> {
     fileInBytes: stat.size,
   };
 }
+
+
+
 
 // MAIN
 
