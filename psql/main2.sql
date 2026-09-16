@@ -68,6 +68,12 @@ VALUES
         'Learning PostgreSQL',
         'draft',
         0
+    ),
+    (
+        (SELECT id FROM users WHERE name = 'Charlie'),
+        'Learning react',
+        'draft',
+        120
     );
 
 
@@ -110,3 +116,7 @@ VALUES
         (SELECT id FROM posts WHERE title = 'Learning PostgreSQL'),
         (SELECT id FROM tags WHERE name = 'Database')
     );
+
+
+-- Select all rows from ' users'
+SELECT * FROM  users;
