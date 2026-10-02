@@ -13,6 +13,7 @@ export function errorHandler(
       success: false,
       message: err.message,
     });
+    return
   }
   logger.error({ err }, "unhandled error");
   res.status(500).json({
