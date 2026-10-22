@@ -5,3 +5,5 @@ print(csv)
 print(min(csv))
 print(sum(csv))
 print(csv + csv2)
+
+print(len(csv))
