@@ -1,0 +1,14 @@
+{
+  // Where the Java extension looks for sources (root of this folder,
+  // so package folders like QuickRun/ are resolved correctly).
+  "java.project.sourcePaths": ["."],
+
+  // Compiled .class files go here instead of next to the .java files.
+  "java.project.outputPath": "bin",
+
+  // Extra jars, if you ever need them: ["lib/**/*.jar"]
+  "java.project.referencedLibraries": [],
+
+  // Don't copy these into the output folder as resources.
+  "java.project.resourceFilters": [".vscode", ".gitignore", "bin"]
+}
