@@ -3,6 +3,7 @@ import type { Level } from "pino";
 
 dotenv.config();
 
+// helper function
 function checkRequiredENV(key: string): string {
   const value = process.env[key];
   if (!value) {
