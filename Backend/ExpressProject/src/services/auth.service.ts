@@ -16,6 +16,7 @@ export async function registerUser(
     );
   }
   const normalizeEmail = email.toLowerCase().trim();
+  
   // Find if the user is already found in the db if yes we won't allow to same email to register
   const existingUser = await findUserByEmail(normalizeEmail);
   if (existingUser) {
